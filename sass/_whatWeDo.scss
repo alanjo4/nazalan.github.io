@@ -1,0 +1,56 @@
+@import 'mixins';
+@import 'vars';
+
+.whatWeDo {
+    @include whatWeDo-gradient;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+
+    &__titulo {
+        margin-top: 3rem;
+    }
+
+    &__webContainer {
+        border-radius: .6rem;
+        padding: 2rem 0;
+        margin: 3rem 0;
+    }
+
+    &__webContainer--color1 {
+        background: $whatWeDo-container1-bg-color;
+    }
+
+    &__webContainer--color2 {
+        background: $whatWeDo-container2-bg-color;
+    }
+
+    &__webContainer--color3 {
+        background: $whatWeDo-container3-bg-color;
+    }
+
+    &__webContainer--color4 {
+        background: $whatWeDo-container4-bg-color;
+    }
+
+    &__webContainer--color5 {
+        background: $whatWeDo-container5-bg-color;
+    }
+
+    &__webContainer--color6 {
+        background: $whatWeDo-container6-bg-color;
+    }
+
+    &__webContainer i {
+        font-size: 7rem;
+    }
+
+    &__webContainer h4 {
+        font-size: 3rem;
+    }
+
+    &__webContainer__texto--padding {
+        padding: 1rem;
+    }
+}
